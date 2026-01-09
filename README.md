@@ -2,9 +2,9 @@ vufind-module-composer-test
 ===========================
 This is a simple extension module for VuFind to be included via composer.
 
-Introduction
+Effects
 ------------
-- A JavaScript popup will be shown everytime you call a page, similar to the defauöt local_example_mixin
+- A JavaScript popup will be shown everytime you call a page, similar to the default local_example_mixin
 - There is a new page being added `Content/mypage` which uses a View Helper from the module to generate a simple example text
 
 To include
