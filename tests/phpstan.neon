@@ -1,0 +1,7 @@
+parameters:
+    paths:
+        - %currentWorkingDirectory%/module
+    tmpDir: %currentWorkingDirectory%/.phpstan_cache
+    level: 0
+    parallel:
+        processTimeout: 600.0

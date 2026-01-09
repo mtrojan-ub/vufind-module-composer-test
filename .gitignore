@@ -1,0 +1,9 @@
+# dependencies
+/composer.lock
+/vendor
+
+# testing (reports etc.)
+.php_cs_cache
+.phpstan_cache
+.phpunit.result.cache
+.rector

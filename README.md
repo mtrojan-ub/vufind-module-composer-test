@@ -26,4 +26,4 @@ Special thoughts for further evaluation
   - Templates: Can we solve the manual symlink in another way? (e.g. a directive in composer.local.json and/or a small sh/bat script)
   - Config: Should we provide separate config files instead of extending existing ones? (might depend on what our module is about)
 - What versioning should be used? e.g. if you want the module to be compatible with different VuFind versions, should we provide several tags for each version? Do we need to extend the versioning schema for this? (e.g. if we write a version for 11.0 and the VuFind Version is 11.0.1, and we fix a bug, do we need to use sub-versions like 11.0.1.0, 11.0.1.1 and so on, and provide separate versions for 10.2 like 10.2.0.0, 10.2.0.1, ...)
-- Should we add simple qa-tasks like e.g. in vufind-org/vufindhttp?
+- QA-Tasks are experimentally included as well (vufind-org/vufindhttp), but so far only for "module" and not for "themes"
