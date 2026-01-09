@@ -3,7 +3,7 @@
     "description": "An extension module for vufind-org/vufind that can be added via composer, testing several mechanisms for overriding folder structures, versioning etc.",
     "autoload": {
         "psr-4": {
-            "\\MyModule": "module/MyModule/src/MyModule/"
+            "MyModule\\": "module/MyModule/src/MyModule/"
         }
     },
     "require": {
