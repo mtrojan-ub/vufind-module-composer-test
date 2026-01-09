@@ -1,3 +1,4 @@
+[![CI Status](https://github.com/mtrojan-ub/vufind-module-composer-test/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/mtrojan-ub/vufind-module-composer-test/actions/workflows/ci.yaml)
 vufind-module-composer-test
 ===========================
 This is a simple extension module for VuFind to be included via composer.
@@ -26,4 +27,7 @@ Special thoughts for further evaluation
   - Templates: Can we solve the manual symlink in another way? (e.g. a directive in composer.local.json and/or a small sh/bat script)
   - Config: Should we provide separate config files instead of extending existing ones? (might depend on what our module is about)
 - What versioning should be used? e.g. if you want the module to be compatible with different VuFind versions, should we provide several tags for each version? Do we need to extend the versioning schema for this? (e.g. if we write a version for 11.0 and the VuFind Version is 11.0.1, and we fix a bug, do we need to use sub-versions like 11.0.1.0, 11.0.1.1 and so on, and provide separate versions for 10.2 like 10.2.0.0, 10.2.0.1, ...)
-- QA-Tasks are experimentally included as well (vufind-org/vufindhttp), but so far only for "module" and not for "themes" (and also, comment-related rules will be skipped in phpcs.xml for now)
+- QA-Tasks are experimentally included as well (copied from vufind-org/vufindhttp), with the following limitations/changes
+  - So far only for "module" and not for "themes"
+  - comment-related rules will be skipped in phpcs.xml for now (lots of duplicate stuff with mandatory comments when you have type hinting, redundant information in the same file, etc.)
+  - ci.yaml only runs with a single PHP version and without PHPUnit (which is not yet used in this test module anyway)
