@@ -15,6 +15,8 @@
         "phpstan/phpstan": "2.1.32",
         "phing/phing": "3.1",
         "squizlabs/php_codesniffer": "4.0.1",
-        "rector/rector": "2.2.8"
+        "rector/rector": "2.2.8",
+
+        "laminas/laminas-view": "^2.27.0"
     }
 }
