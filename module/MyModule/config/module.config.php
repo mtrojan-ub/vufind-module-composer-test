@@ -7,4 +7,3 @@ $config = [
 ];
 
 return $config;
-
