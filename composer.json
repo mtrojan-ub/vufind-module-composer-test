@@ -1,6 +1,7 @@
 {
     "name": "mtrojan-ub/vufind-module-composer-test",
     "description": "An extension module for vufind-org/vufind that can be added via composer, testing several mechanisms for overriding folder structures, versioning etc.",
+    "license": "GPL-2.0-only",
     "autoload": {
         "psr-4": {
             "MyModule\\": "module/MyModule/src/MyModule/"
